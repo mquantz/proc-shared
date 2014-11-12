@@ -1,0 +1,349 @@
+# P-ROC Game Description (YAML) file for IronMan VE
+# Author: Matt Quantz (mpquantz@gmail.com)
+# Date: 11-12-2014
+
+PRGame:
+	machineType: sternSAM
+	numBalls: 4
+
+PRFlippers:
+	- flipperLwR
+	- flipperLwL
+
+PRBumpers:
+	- slingL
+	- slingR
+	- popL
+	- popR
+	- popB
+	- warmachineKickback
+
+PRSwitches:
+	#dedicated switches
+	leftCoinSlot:
+		number: SD1
+	centerCoinSlot:
+		number: SD2
+	rightCoinSlot:
+		number: SD3
+	fourthCoinSlot:
+		number: SD4
+	fifthCoinSlot:
+		number: SD5
+	flipperLwL:
+		number: SD9
+	flipperLwR:
+		number: SD11
+	tilt:
+		number: SD17
+	slamTilt:
+		number: SD18
+	ticketNotch:
+		number: SD19
+	exit:
+		number: SD21
+	down:
+		number: SD22
+	up:
+		number: SD23
+	enter:
+		number: SD24
+
+	#switch matrix
+	motorDown:
+		number: S01
+	motorUp:
+		number: S03
+	mongerShoulderL:
+		number: S04
+	mongerLegs:
+		number: S05
+	mongerShoulderR:
+		number: S06
+	orbitL:
+		number: S07
+	orbitR:
+		number: S09
+	warmachineKickback:
+		number: S10
+	spinner::
+		number: S11
+	rampEnterL:
+		number: S12
+	spinnerC:
+		number: S13
+	spinnerR:
+		number: S14
+	tournyStartButton:
+		number: S15
+	startButton:
+		number: S16
+	trough4:
+		number: S18
+	trough3:
+		number: S19
+	trough2:
+		number: S20
+	trough1:
+		number: S21
+	troughJam:
+		number: S22
+	shooterR:
+		number: S23
+	outlaneL:
+		number: S24
+	inlaneL:
+		number: S25
+	slingL:
+		number: S26
+	slingR:
+		number: S27
+	inlaneR:
+		number: S28
+	outlaneR:
+		number: S29
+	popL:
+		number: S30
+	popR:
+		number: S31
+	popB:
+		number: S32
+	ironman4N:
+		number: S33
+	ironman3O:
+		number: S34
+	ironman2R:
+		number: S35
+	ironman1I:
+		number: S36
+	rampExitR:
+		number: S37
+	topLaneL:
+		number: S38
+	topLaneR:
+		number: S39
+	ironman5M:
+		number: S40
+	ironman6A:
+		number: S41
+	ironman7N:
+		number: S42
+	rampEnterR:
+		number: S43
+	droneGround:
+		number: S44
+	droneAir:
+		number: S45
+	droneTactical:
+		number: S46
+	whiplashL:
+		number: S47
+	whiplashR:
+		number: S48
+	rampExitL:
+		number: S49
+	droneSea:
+		number: S50
+PRCoils:
+	#high current coils group 1
+	trough:
+		number: C01
+	shooterR:
+		number: C02
+	mongerMagnet:
+		number: C03
+	whiplashMagnet:
+		number: C04
+	warmachineKickback:
+		number: C05
+	orbitPost:
+		number: C06
+
+	#high current coils group 2
+	popL:
+		number: C09
+	popR:
+		number: C10
+	popB:
+		number: C11
+	centerPost:
+		number: C12
+	flipperLwLMain:
+		number: C15
+	flipperLwRMain:
+		number: C16
+
+	#low current coils group 1
+	slingL:
+		number: C17
+	slingR:
+		number: C18
+	mongerMotor:
+		number: C19
+	flasherPops:
+		number: C20
+	flasherRampTopL:
+		number: C21
+	flasherWarmachineFront:
+		number: C22
+	flasherCenterLane:
+		number: C23
+	optionalCoil:
+		number: C24
+	
+	#low current coils group 2
+	flasherMonger:
+		number: C25
+	flasherRampTopR:
+		number: C26
+	flasherWarmachine:
+		number: C27
+	flasherMongerChest:
+		number: C28
+	flasherWhiplash:
+		number: C29
+	flasherMark6:
+		number: C30
+	flasherRampBottomL:
+		number: C31
+	flasherRampBottomR:
+		number: C32
+
+PRLamps:
+	#lamp matrix
+	startButton:
+		number: L01
+	tournyStartButton:
+		number: L02
+	shootAgain:
+		number: L03
+	leftOutlane:
+		number: L04
+	leftInlane:
+		number: L05
+	rightInlane:
+		number: L06
+	rightOutlane:
+		number: L07
+	extraBall:
+		number: L08
+	centerLaneArrow:
+		number: L09
+	centerLaneMonger:
+		number: L10
+	centerLanePop:
+		number: L11
+	droneTactical:
+		number: L12
+	droneAir:
+		number: L13
+	leftRampArrow:
+		number: L14
+	leftOrbitMonger:
+		number: L15
+	leftOrbitPop:
+		number: L16
+	ironman4N:
+		number: L17
+	ironman3O:
+		number: L18
+	ironman2R:
+		number: L19
+	ironman1I:
+		number: L20
+	warMachine:
+		number: L21
+	400kL:
+		number: L22
+	300kL:
+		number: L23
+	200kL :
+		number: L24
+	100kL:
+		number: L25
+	rightRampArrow:
+		number: L26
+	shield:
+		number: L27
+	mongerR:
+		number: L28
+	mongerE:
+		number: L29
+	mongerG:
+		number: L30
+	mongerN:
+		number: L31
+	mongerO:
+		number: L32
+	mongerM:
+		number: L33
+	rightLoopArrow:
+		number: L34
+	rightOrbitMonger:
+		number: L35
+	ironman5M:
+		number: L36
+	ironman6A:
+		number: L37
+	ironman7N:
+		number: L38
+	400kR:
+		number: L39
+	300kR:
+		number: L40
+	200kR:
+		number: L41
+	100kR:
+		number: L42
+	droneGround:
+		number: L43
+	wizardIronman:
+		number: L44
+	wizardWarmachine:
+		number: L45
+	wizardMonger:
+		number: L46
+	wizardWhiplash:
+		number: L47
+	wizardDrones:
+		number: L48
+	mark5:
+		number: L49
+	mark4:
+		number: L50
+	mark3:
+		number: L51
+	mark2:
+		number: L52
+	mark1:
+		number: L53
+	leftLoopArrow:
+		number: L54
+	mark6:
+		number: L55
+	special:
+		number: L56
+	topLaneL:
+		number: L57
+	topLaneR:
+		number: L58
+	droneSea:
+		number: L59
+	popL:
+		number: L60
+	popR:
+		number: L61
+	popB:
+		number: L62
+	rightOrbitPop:
+		number: L63
+
+PRBallSave:
+	pulseCoils: [shooterR]
+	resetSwitches:
+		shooterR: open
+	stopSwitches:
+		shooterR: closed
+		# don't ball search if a flipper button is pressed
+		flipperLwL: closed
+		flipperLwR: closed
